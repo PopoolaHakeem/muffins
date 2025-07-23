@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Muffins-MakeUp-Studio</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+    <style>
+        * {
+            scroll-behavior: ;
+        }
+    </style>
     
 </head>
 <body class="font-sans-serif">
-    <div class="w-full bg-red-"> 
+    <div class="w-full "> 
 
         <!-- Mobile-Nav -->
          <nav class="bg-black w-full h-[230px] absolute top-22 hidden " id="mobile-list" >
@@ -16,30 +23,31 @@
                 <a href="/index.html" class="hover:text-red-400">Home
                 </a>
                 
-                <a href="#" class="hover:text-red-400 ">Services
+                <a href="/pages/services.html" class="hover:text-red-400 ">Services
                 </a>
         
-                <a href="#" class="hover:text-red-400 ">About
+                <a href="/pages/about.html" class="hover:text-red-400 ">About
                 </a>
         
-                <a href="#" class="hover:text-red-400 ">Pricing
+                <a href="/pages/pricing.html" class="hover:text-red-400 ">Pricing
                 </a>
         
-                <a href="#" class="hover:text-red-400 ">Contact
+                <a href="/pages/contact.html" class="hover:text-red-400 ">Contact
                 </a>
             </ul>
          </nav>
 
 
-       <div class="w-full h-full sm:h-[auto] md:h-[100vh] lg:h-[100hv]   bg-[url(/images/makeup-home.JPG)] bg-cover bg-no-repeat bg-center justify-center items-center">
-            <div class="bg-gradient-to-b  to-[#333] h-screen p-4 md:px-5 lg:px-7 mx-auto">
+         <!-- NavBar & first-section -->
+       <div class="w-full h-full sm:h-[auto] md:h-[100vh] lg:h-[100hv]   bg-[url(/images/makeup-home.JPG)] bg-cover bg-no-repeat bg-center justify-center items-center" id="know-more">
+            <div class="bg-gradient-to-l  to-[#333] h-screen p-4 md:px-5 lg:px-7 mx-auto">
 
                 <!-- nav-bar -->
                 <nav class="w-full   flex justify-between text- sm:text- md:text- lg:text-normal">
                     <div>
                          <table class="border-separate border-spacing-x-2">
                             <tr>
-                                <td><img src="/images/muffins-logo.JPG" alt="" width="55" class="rounded-full"></td>
+                                <td><img src="/images/muffins-logo.JPG" alt="" width="45" class="rounded-full"></td>
                                 <td>
                                     <h3 class="uppercase text-[12.6px] text-[#fffaf0] tracking-widest">muffin's</h3>
                                     <p class="uppercase text-[7.5px] text-[#fffaf0] tracking-widest">Beauty Studio</p>
@@ -49,15 +57,15 @@
                     </div>
                     <div class="flex items-center">
                         <ul class="flex space-x-5 text-white  hidden md:block lg:block">
-                            <a href="">Home</a>
-                            <a href="">Services</a>
-                            <a href="">About</a>
-                            <a href="">Pricing</a>
-                            <a href="">Contact</a>
+                            <a href="/index.html">Home</a>
+                            <a href="/pages/services.html">Services</a>
+                            <a href="/pages/about.html">About</a>
+                            <a href="/pages/pricing.html">Pricing</a>
+                            <a href="/pages/contact.html">Contact</a>
                         </ul>
                     </div>
-                    <div class="text-white md:hidden lg:hidden cursor-pointer bg-red-400 px-2 py-2 h-[10%]" id="menu" >| |</div>
-                    <div class="hidden text-white cursor-pointer bg-red-400 px-2 py-2 h-[10%]" id="cancel" > X </div>
+                    <div class="text-white text-sm md:hidden lg:hidden cursor-pointer bg-gradient-to-b from-black to-red-400 px-3 py-2 h-[10%]" id="menu" >| |</div>
+                    <div class="hidden text-white text-sm cursor-pointer bg-gradient-to-b from-red-400 to-black px-[13.5px] py-2 h-[10%]" id="cancel" > X </div>
                     </nav>
 
                 <!-- first-section -->
@@ -82,7 +90,6 @@
             </div> 
         </div>
 
-
        <!-- second-section -->
         <div class="w-full h-full md:h-[auto] lg:h-[auto] px-4 py-10 space-y-20 md:py-12 md:px-5 md:pt-12 md:pb-20 mx-auto md:flex md:items-start md:justify-around md:space-y-0  lg:flex lg:justify-around lg:pt-13 lg:pb-20 lg:px-7 lg:space-y-0 bg-black">
 
@@ -93,7 +100,9 @@
                     </svg>
                 </p>
 
-                <p>+234-813-535-0296</p>
+                <a href="call:+234-813-535-0296">
+                    <p>+234-813-535-0296</p>
+                </a>
             </div>
 
             <div class="flex flex-col items-center text-white space-y-5 md:flex-row md:space-y-0 md:space-x-5 lg:flex-row lg:space-y-0 lg:space-x-5 lg:items-start">
@@ -156,7 +165,7 @@
                     </div>
 
                     <div>
-                        <a href="#">
+                        <a href="#know-more">
                             <button class="bg-red-500 px-7 py-3 uppercase text-[12px] md:text-[14px] lg:text-[14px] hover:bg-red-600 cursor-pointer">
                                 Know More
                             </button>
@@ -208,7 +217,7 @@
         <!-- fifth-section  -->  
         <div class="bg-black h-auto w-full p-4 md:p-5 lg:p-7 mx-auto flex flex-col space-y-10 md:space-y-15 lg:space-y-15 pt-5">
 
-            <div class="space-y-7">
+            <div class="space-y-7 pb-5">
                 <div class="bg-blue- h-full w-full flex justify-center items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24">
 	                <path fill="#eb5353" d="M9 5a2 2 0 0 1 2 2v6c0 3.13-1.65 5.193-4.757 5.97a1 1 0 1 1-.486-1.94C7.984 16.473 9 15.203 9 13v-1H6a2 2 0 0 1-1.995-1.85L4 10V7a2 2 0 0 1 2-2zm9 0a2 2 0 0 1 2 2v6c0 3.13-1.65 5.193-4.757 5.97a1 1 0 1 1-.486-1.94C16.984 16.473 18 15.203 18 13v-1h-3a2 2 0 0 1-1.995-1.85L13 10V7a2 2 0 0 1 2-2z" />
@@ -216,10 +225,10 @@
                 </div>
 
                 <div class="bg-blue- h-full w-full flex flex-col justify-center items-center">
-                <h1 class="text-white text-2xl md:text-3xl lg:text-4xl">
-                    What They Say
-                </h1>
-                    <div class="w-15 text-red-500 border-b-3 pt-3 mx-auto"></div>
+                    <h1 class="text-white text-2xl md:text-3xl lg:text-4xl">
+                        What They Say
+                    </h1>
+                    <div class="w-15 text-red-500 border-b-3 pt-7 mx-auto"></div>
                 </div>
             </div>
 
@@ -411,10 +420,10 @@
 
         <!-- sixth-section -->
          <div class="w-full  bg-[url(/images/footer-makeup-banner.jpg)] bg-cover bg-center bg-no-repeat ">
-            <div class="bg-gradient-to-tr to-[#333] h-auto pt-20 flex flex-col justify-center items-center space-y-10 md:h-screen md:space-y-20">
+            <div class="bg-gradient-to-tr to-[#333] h-auto pt-20 flex flex-col justify-center items-center space-y-10 md:h- md:space-y-15">
 
                 <div>
-                    <h2 class="text-white text-xl flex flex-col items-center uppercase md:text-2xl md:block">
+                    <h2 class="text-white text-xl font-medium flex flex-col items-center uppercase space-y-1 sm:block md:text-3xl md:font-semibold md:flex md:space-y-3 lg:text-4xl lg:font-semibold lg:flex lg:">
                         <span>get 10% discount on your </span>
                         <span>first visit!</span>
                     </h2>
@@ -439,12 +448,26 @@
                 </div>
 
                 <!-- footer-section -->
-                 <footer>
-                    <div class="text-white text-[10px] tracking-widest pb-5 space-y-2">
-                        <p>Designed by Muffin</p>
-                        <p class="text-[8px] text-center">All Right Reservered</p>
+                 <footer class="w-full px-4 py-4 lg:px-0  flex flex- justify-center  ">
+                    <div class=" flex flex-col justify-around items-baseline md:w-full md:flex-row-reverse md:justify-between lg:justify-around">
+                        <div class="w-30">
+                            <div class="text-white flex justify-evenly pb-3">
+                                <p>@</p>
+                                <p>@</p>
+                                <p>@</p>
+                                <p>@</p>
+                            </div>
+                        </div>
+                        <div class="text-white text-[10px] tracking-widest pb- space-y-">
+                                <p>Designed by Muffin</p>
+                                
+                        </div>
                     </div>
+                    
+                    
                  </footer>
+                                <!-- <p class="text-[8px] text-cente">All Right Reservered</p>  -->
+
             </div>
          </div>
 
