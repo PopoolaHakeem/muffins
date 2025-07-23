@@ -40,7 +40,7 @@
 
          <!-- NavBar & first-section -->
        <div class="w-full h-auto sm:h-[auto] md:h-[100vh] lg:h-[100hv]   bg-[url(/images/makeup-home.JPG)] bg-cover bg-no-repeat bg-center justify-center items-center" id="know-more">
-            <div class="bg-gradient-to-l  to-[#333]  p-4 sm:p-4 md:h-screen md:px-5 lg:px-7 mx-auto">
+            <div class="bg-gradient-to-l  to-[#333]  p-4 md:h-screen md:px-5 lg:px-7 mx-auto">
 
                 <!-- nav-bar -->
                 <nav class="w-full   flex justify-between text- sm:text- md:text- lg:text-normal">
@@ -64,8 +64,26 @@
                             <a href="/pages/contact.html">Contact</a>
                         </ul>
                     </div>
-                    <div class="text-white text-sm md:hidden lg:hidden cursor-pointer bg-gradient-to-b from-black to-red-400 px-3 py-2 h-[10%]" id="menu" >| |</div>
-                    <div class="hidden text-white text-sm cursor-pointer bg-gradient-to-b from-red-400 to-black px-[13.5px] py-2 h-[10%]" id="cancel" > X </div>
+                    <div class=" md:hidden lg:hidden cursor-pointer bg-gradient-to-b from-black to-red-400 px-2 py-2 h-[auto]" id="menu" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+	                        <g fill="none" stroke="#f2ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		                        <path d="M5 5L19 19M5 19L19 5">
+			                        <animate fill="freeze" attributeName="d" dur="0.4s" values="M5 5L19 19M5 19L19 5;M5 5L19 5M5 19L19 19" />
+		                        </path>
+		                        <path d="M12 12H12" opacity="0">
+			                        <animate fill="freeze" attributeName="d" begin="0.2s" dur="0.4s" values="M12 12H12;M5 12H19" />
+			                        <set fill="freeze" attributeName="opacity" begin="0.2s" to="1" />
+		                        </path>
+	                        </g>
+                        </svg>
+                    </div>
+
+                    <div class="hidden  text-sm cursor-pointer bg-gradient-to-b from-red-400 to-black px-2 py-2 h-[10%]" id="cancel" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512">
+	                        <path fill="#f2ecec" fill-rule="evenodd" d="M420.48 121.813L390.187 91.52L256 225.92L121.813 91.52L91.52 121.813L225.92 256L91.52 390.187l30.293 30.293L256 286.08l134.187 134.4l30.293-30.293L286.08 256z" />
+                        </svg>
+                    </div>
+
                     </nav>
 
                 <!-- first-section -->
