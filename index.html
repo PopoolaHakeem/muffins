@@ -18,32 +18,27 @@
     <div class="w-full "> 
 
         <!-- Mobile-Nav -->
-         <nav class="bg-black w-full h-[230px] absolute top-22 hidden " id="mobile-list" >
+        <nav class="bg-black w-full h-[230px] absolute top-22 hidden " id="mobile-list" >
             <ul class="flex flex-col space-y-4 text-white py-5 px-7  ">
-                <a href="/index.html" class="hover:text-red-400">Home
-                </a>
+                <a href="/index.html" class="hover:text-red-400">Home</a>
                 
-                <a href="/pages/services.html" class="hover:text-red-400 ">Services
-                </a>
+                <a href="/pages/services.html" class="hover:text-red-400 ">Services</a>
         
-                <a href="/pages/about.html" class="hover:text-red-400 ">About
-                </a>
+                <a href="/pages/about.html" class="hover:text-red-400 ">About</a>
         
-                <a href="/pages/pricing.html" class="hover:text-red-400 ">Pricing
-                </a>
+                <a href="/pages/pricing.html" class="hover:text-red-400 ">Pricing</a>
         
-                <a href="/pages/contact.html" class="hover:text-red-400 ">Contact
-                </a>
+                <a href="/pages/contact.html" class="hover:text-red-400 ">Contact</a>
             </ul>
-         </nav>
+        </nav>
 
 
-         <!-- NavBar & first-section -->
-       <div class="w-full h-auto sm:h-[auto] md:h-[100vh] lg:h-[100hv]   bg-[url(/images/makeup-home.JPG)] bg-cover bg-no-repeat bg-center justify-center items-center" id="know-more">
+        <!-- NavBar & first-section -->
+       <div class="w-full h-auto sm:h-[auto] md:h-[100vh] lg:h-[100hv]   bg-[url(/images/makeup-home.JPG)] bg-cover bg-no-repeat bg-center justify-center items-center" >
             <div class="bg-gradient-to-l  to-[#333]  p-4 md:h-screen md:px-5 lg:px-7 mx-auto">
 
                 <!-- nav-bar -->
-                <nav class="w-full   flex justify-between text- sm:text- md:text- lg:text-normal">
+                <nav class="w-full   flex justify-between text- sm:text- md:text- lg:text-normal ">
                     <div>
                          <table class="border-separate border-spacing-x-2">
                             <tr>
@@ -84,7 +79,7 @@
                         </svg>
                     </div>
 
-                    </nav>
+                </nav>
 
                 <!-- first-section -->
                 <div class="flex flex-col justify-center items-center space-y-10 pt-30 ">
@@ -98,7 +93,7 @@
                     <div class="w-30 text-red-500 border-b-3"> </div>
 
                     <div class="pb-10">
-                        <a href="">
+                        <a href="/pages/appointment-page.html">
                             <button class="text-white text-[12px] bg-red-500 py-3 px-7 md:text-[14px] lg:text-[14px] hover:bg-red-600 cursor-pointer">
                                 Book Appointment
                             </button>
@@ -183,7 +178,7 @@
                     </div>
 
                     <div>
-                        <a href="#know-more">
+                        <a href="/pages/appointment-page.html">
                             <button class="bg-red-500 px-7 py-3 uppercase text-[12px] md:text-[14px] lg:text-[14px] hover:bg-red-600 cursor-pointer">
                                 Know More
                             </button>
@@ -217,7 +212,7 @@
                </div>
 
                 <div>
-                    <a href="#">
+                    <a href="/pages/appointment-page.html">
                         <button class="bg-red-500 px-7 py-3 uppercase text-[12px] md:text-[14px] lg:text-[14px] hover:bg-red-600 cursor-pointer">
                            Book Now
                         </button>
@@ -437,9 +432,10 @@
         </div>
 
         <!-- sixth-section -->
-         <div class="w-full  bg-[url(/images/footer-makeup-banner.jpg)] bg-cover bg-center bg-no-repeat ">
+        <div class="w-full  bg-[url(/images/footer-makeup-banner.jpg)] bg-cover bg-center bg-no-repeat ">
             <div class="bg-gradient-to-tr to-[#333] h-auto pt-20 flex flex-col justify-center items-center space-y-10 md:h- md:space-y-15">
 
+                <!-- Discount section -->
                 <div>
                     <h2 class="text-white text-xl font-medium flex flex-col items-center uppercase space-y-1 sm:block md:text-3xl md:font-semibold md:flex md:space-y-3 lg:text-4xl lg:font-semibold lg:flex lg:">
                         <span>get 10% discount on your </span>
@@ -447,6 +443,7 @@
                     </h2>
                 </div>
 
+                <!-- Paragraph section -->
                 <div class=" text-center px-4 md:px-19 lg:px-19">
                     <p class="text-white text-sm font-extralight md:text-[12px] md:font-thin lg:text-[14px] lg:font-normal">
                         <span>Ut rutrum scelerisque tortor, ac tempor tortor feugiat vitae. Etiam</span>
@@ -457,8 +454,9 @@
                     </p>
                 </div>
 
+                <!-- Appointment secton -->
                 <div class="pb-10">
-                    <a href="">
+                    <a href="/pages/appointment-page.html">
                         <button class="text-white text-[12px] bg-red-500 py-3 px-7 md:text-[14px] lg:text-[14px] hover:bg-red-600 cursor-pointer">
                                 Book Appointment
                         </button>
@@ -473,35 +471,45 @@
                             <p>Designed by Muffin</p>
                         </div>
 
+                        <!-- platform links  -->
                         <div class="h-full flex text-white space-x-3 pb-5 md:pb-0">
-                            <p class="cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-	                                <path fill="#f2ecec" d="m17.687 3.063l-4.996 5.711l-4.32-5.711H2.112l7.477 9.776l-7.086 8.099h3.034l5.469-6.25l4.78 6.25h6.102l-7.794-10.304l6.625-7.571zm-1.064 16.06L5.654 4.782h1.803l10.846 14.34z" />
-                                </svg>
-                            </p>
 
-                            <p class="cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-	                                <path fill="#f2ecec" d="M16 7a1 1 0 1 1 2 0a1 1 0 0 1-2 0" />
-	                                <path fill="#f2ecec" fill-rule="evenodd" d="M12 7.25a4.75 4.75 0 1 0 0 9.5a4.75 4.75 0 0 0 0-9.5M8.75 12a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0" clip-rule="evenodd" />
-	                                <path fill="#f2ecec" fill-rule="evenodd" d="M17.258 2.833a47.7 47.7 0 0 0-10.516 0c-2.012.225-3.637 1.81-3.873 3.832a46 46 0 0 0 0 10.67c.236 2.022 1.86 3.607 3.873 3.832a47.8 47.8 0 0 0 10.516 0c2.012-.225 3.637-1.81 3.873-3.832a46 46 0 0 0 0-10.67c-.236-2.022-1.86-3.607-3.873-3.832m-10.35 1.49a46.2 46.2 0 0 1 10.184 0c1.33.15 2.395 1.199 2.55 2.517a44.4 44.4 0 0 1 0 10.32a2.89 2.89 0 0 1-2.55 2.516a46.2 46.2 0 0 1-10.184 0a2.89 2.89 0 0 1-2.55-2.516a44.4 44.4 0 0 1 0-10.32a2.89 2.89 0 0 1 2.55-2.516" clip-rule="evenodd" />
-                                </svg>
-                            </p>
+                            <a href="x.com">
+                                <p class="hover:bg-gradient-to-tl rounded-[3px] to-black ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                                    <path fill="#f2ecec" d="m17.687 3.063l-4.996 5.711l-4.32-5.711H2.112l7.477 9.776l-7.086 8.099h3.034l5.469-6.25l4.78 6.25h6.102l-7.794-10.304l6.625-7.571zm-1.064 16.06L5.654 4.782h1.803l10.846 14.34z" />
+                                    </svg>
+                                </p>
+                            </a>
 
-                            <p class="cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-	                                <g fill="#f2ecec">
-		                                <path fill-rule="evenodd" d="M12 4a8 8 0 0 0-6.895 12.06l.569.718l-.697 2.359l2.32-.648l.379.243A8 8 0 1 0 12 4M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10a9.96 9.96 0 0 1-5.016-1.347l-4.948 1.382l1.426-4.829l-.006-.007l-.033-.055A9.96 9.96 0 0 1 2 12" clip-rule="evenodd" />
-		                                <path d="M16.735 13.492c-.038-.018-1.497-.736-1.756-.83a1 1 0 0 0-.34-.075c-.196 0-.362.098-.49.291c-.146.217-.587.732-.723.886c-.018.02-.042.045-.057.045c-.013 0-.239-.093-.307-.123c-1.564-.68-2.751-2.313-2.914-2.589c-.023-.04-.024-.057-.024-.057c.005-.021.058-.074.085-.101c.08-.079.166-.182.249-.283l.117-.14c.121-.14.175-.25.237-.375l.033-.066a.68.68 0 0 0-.02-.64c-.034-.069-.65-1.555-.715-1.711c-.158-.377-.366-.552-.655-.552c-.027 0 0 0-.112.005c-.137.005-.883.104-1.213.311c-.35.22-.94.924-.94 2.16c0 1.112.705 2.162 1.008 2.561l.041.06c1.161 1.695 2.608 2.951 4.074 3.537c1.412.564 2.081.63 2.461.63c.16 0 .288-.013.4-.024l.072-.007c.488-.043 1.56-.599 1.804-1.276c.192-.534.243-1.117.115-1.329c-.088-.144-.239-.216-.43-.308" />
-	                                </g>
-                                </svg>
-                            </p>
+                            <a href="instagram.com">
+                                <p class="hover:bg-gradient-to-tl rounded-[3px] to-black">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                                    <path fill="#f2ecec" d="M16 7a1 1 0 1 1 2 0a1 1 0 0 1-2 0" />
+	                                    <path fill="#f2ecec" fill-rule="evenodd" d="M12 7.25a4.75 4.75 0 1 0 0 9.5a4.75 4.75 0 0 0 0-9.5M8.75 12a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0" clip-rule="evenodd" />
+	                                    <path fill="#f2ecec" fill-rule="evenodd" d="M17.258 2.833a47.7 47.7 0 0 0-10.516 0c-2.012.225-3.637 1.81-3.873 3.832a46 46 0 0 0 0 10.67c.236 2.022 1.86 3.607 3.873 3.832a47.8 47.8 0 0 0 10.516 0c2.012-.225 3.637-1.81 3.873-3.832a46 46 0 0 0 0-10.67c-.236-2.022-1.86-3.607-3.873-3.832m-10.35 1.49a46.2 46.2 0 0 1 10.184 0c1.33.15 2.395 1.199 2.55 2.517a44.4 44.4 0 0 1 0 10.32a2.89 2.89 0 0 1-2.55 2.516a46.2 46.2 0 0 1-10.184 0a2.89 2.89 0 0 1-2.55-2.516a44.4 44.4 0 0 1 0-10.32a2.89 2.89 0 0 1 2.55-2.516" clip-rule="evenodd" />
+                                    </svg>
+                                </p>
+                            </a>
 
-                            <p class="cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-	                                <path fill="none" stroke="#f2ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.2 10.1c0 .22-.18.401-.4.39a8 8 0 0 1-3.362-.93c-.281-.15-.638.045-.638.364V15.5a6 6 0 1 1-6.4-5.987a.38.38 0 0 1 .4.387v2.8c0 .22-.18.397-.398.433A2.4 2.4 0 1 0 12.2 15.5V2.9a.4.4 0 0 1 .4-.4h2.8a.43.43 0 0 1 .418.4a4.4 4.4 0 0 0 3.983 3.982c.22.02.4.197.4.418z" />
-                                </svg>
-                            </p>
+                            <a href="whatsapp.com">
+                                <p class="hover:bg-gradient-to-tl rounded-[3px] to-black">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                                    <g fill="#f2ecec">
+		                                    <path fill-rule="evenodd" d="M12 4a8 8 0 0 0-6.895 12.06l.569.718l-.697 2.359l2.32-.648l.379.243A8 8 0 1 0 12 4M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10a9.96 9.96 0 0 1-5.016-1.347l-4.948 1.382l1.426-4.829l-.006-.007l-.033-.055A9.96 9.96 0 0 1 2 12" clip-rule="evenodd" />
+		                                    <path d="M16.735 13.492c-.038-.018-1.497-.736-1.756-.83a1 1 0 0 0-.34-.075c-.196 0-.362.098-.49.291c-.146.217-.587.732-.723.886c-.018.02-.042.045-.057.045c-.013 0-.239-.093-.307-.123c-1.564-.68-2.751-2.313-2.914-2.589c-.023-.04-.024-.057-.024-.057c.005-.021.058-.074.085-.101c.08-.079.166-.182.249-.283l.117-.14c.121-.14.175-.25.237-.375l.033-.066a.68.68 0 0 0-.02-.64c-.034-.069-.65-1.555-.715-1.711c-.158-.377-.366-.552-.655-.552c-.027 0 0 0-.112.005c-.137.005-.883.104-1.213.311c-.35.22-.94.924-.94 2.16c0 1.112.705 2.162 1.008 2.561l.041.06c1.161 1.695 2.608 2.951 4.074 3.537c1.412.564 2.081.63 2.461.63c.16 0 .288-.013.4-.024l.072-.007c.488-.043 1.56-.599 1.804-1.276c.192-.534.243-1.117.115-1.329c-.088-.144-.239-.216-.43-.308" />
+	                                    </g>
+                                    </svg>
+                                </p>
+                            </a>
+
+                            <a href="tiktok.com">
+                                <p class="hover:bg-gradient-to-tl rounded-[3px] to-black">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                                    <path fill="none" stroke="#f2ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.2 10.1c0 .22-.18.401-.4.39a8 8 0 0 1-3.362-.93c-.281-.15-.638.045-.638.364V15.5a6 6 0 1 1-6.4-5.987a.38.38 0 0 1 .4.387v2.8c0 .22-.18.397-.398.433A2.4 2.4 0 1 0 12.2 15.5V2.9a.4.4 0 0 1 .4-.4h2.8a.43.43 0 0 1 .418.4a4.4 4.4 0 0 0 3.983 3.982c.22.02.4.197.4.418z" />
+                                    </svg>
+                                </p>
+                            </a>
                         </div>
                    </div>
 
@@ -511,10 +519,9 @@
 
                 </footer>
             </div>
-         </div>
+        </div>
 
 
- 
     </div>
 <script src="/script.js"></script>
 </body>
