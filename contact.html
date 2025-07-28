@@ -30,7 +30,7 @@
             <div class=" w-full h-auto bg-gradient-to-b from-[#26231d80] to-[#25231d] p-4 pb-15 md:h-[100vh] md:px-5 lg:px-7 lg:h-auto mx-auto space-y-30 ">
 
                 <!-- Nav-Bar  -->
-                <nav class="w-full   flex justify-between text- sm:text- md:text- lg:text-normal">
+                <nav class="w-full   flex justify-between lg:text-normal">
                     <div>
                         <table class="border-separate border-spacing-x-2">
                             <tr>
@@ -87,7 +87,7 @@
                         </div>
 
                         <div class="text-white text-sm ">
-                            <p class="w-full mx-auto text-white text-sm text-center md:w-[80%] md:block md:px- md:text- lg:px- lg:text-">
+                            <p class="w-full mx-auto text-white text-sm text-center md:w-[80%] md:block">
                                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit</span>
                                 <span>tellus, luctus nec ullamcorper mattis, pulvinar dapibus.</span>
                             </p>
@@ -112,11 +112,19 @@
                         <div class="w-25 border-b-2 text-red-500 py-6 mx-auto"></div>
                     </div>
 
-                    <form action="" class="flex flex-col space-y-7 w-[90%] ">
-                        <input type="text" name="" id="name" placeholder="Your Name" required    class="border border-gray-200 p-3">
-                        <input type="number" name="" id="name" placeholder="Your Number" required    class=" border border-gray-200 p-3">
+                    <form 
+                        action="mailto:hakeempopoola04@gmail.com"
+                        method="post"
+                        enctype="text/plain"
+                        class="flex flex-col space-y-7 w-[90%] "
+                        >
 
-                        <select name="" id="" aria-placeholder="Other" required    class=" border border-gray-200 p-3 block bg-gray- text-gray-700">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required    class="border border-gray-200 p-3">
+                        <input type="number" name="number" id="name" placeholder="Your Number" required    class=" border border-gray-200 p-3">
+
+                        <select name="" id="" aria-placeholder="Other" required    
+                            class=" border border-gray-200 p-3 block bg-gray- text-gray-700">
+
                             <option value="" disabled selected hidden >Other</option>
                             <option value="" disabled >Select Option</option>
                             <option value="">Bridal Makeup</option>
@@ -124,13 +132,15 @@
                             <option value="">Occasional Makeup</option>
                             <option value="">Other</option>
                         </select>
-                        <textarea name="message" id="message" placeholder="Your Message" required   class="border border-gray-200 pb-10"></textarea>
+                        <textarea name="message" id="message" placeholder="Your Message" required   class="border border-gray-200 p-3 pb-10"></textarea>
 
                         <div class="pb-7">
-                            <button class="uppercase bg-[#f34263] hover:bg-[#cf2e2e] text-center w-50 py-4 cursor-pointer">
+                            <button type="submit" 
+                            class="uppercase text-white text-sm bg-[#f34263] hover:bg-[#cf2e2e] text-center w-50 py-4 cursor-pointer">
                                 send message
                             </button>
                         </div>
+                        
                         
 
                     </form>
@@ -190,7 +200,7 @@
 
                 <!-- Appointment secton -->
                 <div class="pb-10">
-                    <a href="/pages/appointment-page.html">
+                    <a href="/appointment-page.html">
                         <button class="text-white text-[12px] bg-red-500 py-3 px-7 md:text-[14px] lg:text-[14px] hover:bg-red-600 cursor-pointer">
                                 Book Appointment
                         </button>
@@ -258,26 +268,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
-    
-
-
 <script src="/script.js"></script>
 </body>
 </html>
