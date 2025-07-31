@@ -13,5 +13,7 @@ Cancel.onclick = function () {
     Menu.style.display = 'block'
     Cancel.style.display = 'none'
     NavList.style.display = 'none'
-    
+   
 }
+
+
