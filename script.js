@@ -1,6 +1,7 @@
 const Menu = document.querySelector ('#menu');
 const Cancel = document.querySelector ('#cancel');
-const NavList = document.querySelector ('#mobile-list')
+const NavList = document.querySelector ('#mobile-list');
+
 
 Menu.onclick = function () {
     Menu.style.display = 'none'
